@@ -71,6 +71,8 @@ This model structure ensures a modular and organized approach to representing pr
 
 Product and promotion data are stored as arrays, and the respective fetchers are defined in the [data directory](/src/data). It's important to note that in a real-world scenario, these would typically be managed by respective microservices with associated SQL or NoSQL database tables. However, for the purposes of this test project, the data is stored as arrays of objects within the codebase. This simplification allows for a clear demonstration of functionality without the complexity of external services.
 
+> Note: The promotion rules are defined in the same array. In real world, I would put the rules in a rules engine code mircoservice or the same cart service.
+
 ## `src/index.ts`
 This file serves as the main entry point for the code, defining a set of scenarios presented in the form of an array. When you run `yarn dev`, the console output will provide comprehensive information, including a description of the scenario, the total cost, whether the cost met expectations, and a detailed receipt breakdown for each item in the cart.
 
