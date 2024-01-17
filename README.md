@@ -1,6 +1,6 @@
 # Shopping Cart Test
 
-Welcome to the Datarock Shopping Cart Test project! This project serves as a test implementation for the requirements outlined [here](https://github.com/DiUS/coding-tests/blob/master/dius_shopping.md).
+Welcome to the Datarock Shopping Cart Test project! This project serves as a test implementation for the requirements outlined [here](https://github.com/DiUS/coding-tests/blob/master/dius_shopping.md) or [here](/PROBLEM.md).
 
 ## Getting Started
 
